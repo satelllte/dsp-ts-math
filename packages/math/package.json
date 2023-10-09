@@ -3,7 +3,7 @@
   "version": "0.1.0-alpha.0",
   "license": "MIT",
   "author": "@satelllte (https://github.com/satelllte)",
-  "description": "A tiny set of TypeScript math helpers related to sound processing",
+  "description": "A tiny set of TypeScript math helpers related to sound processing (DSP)",
   "keywords": [
     "dsp",
     "dsp-ts",
