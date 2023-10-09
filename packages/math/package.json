@@ -1,6 +1,6 @@
 {
   "name": "@dsp-ts/math",
-  "version": "0.1.0-alpha.1",
+  "version": "0.1.0-alpha.2",
   "license": "MIT",
   "author": "@satelllte (https://github.com/satelllte)",
   "description": "A tiny set of TypeScript math helpers related to sound processing (DSP)",
