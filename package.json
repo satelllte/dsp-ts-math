@@ -3,6 +3,7 @@
   "private": true,
   "scripts": {
     "build": "turbo run build",
+    "generate:docs": "turbo run generate:docs",
     "test": "turbo run test",
     "test:types": "turbo run test:types",
     "test:lint": "turbo run test:lint",
@@ -16,6 +17,8 @@
     "prettier": "3.0.3",
     "tsup": "7.2.0",
     "turbo": "1.10.13",
+    "typedoc": "0.25.2",
+    "typedoc-plugin-markdown": "3.16.0",
     "typescript": "5.2.2"
   },
   "packageManager": "npm@9.5.1",
