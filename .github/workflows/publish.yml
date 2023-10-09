@@ -17,6 +17,7 @@ jobs:
           node-version-file: '.nvmrc'
           registry-url: 'https://npm.pkg.github.com'
           scope: '@dsp-ts'
+          always-auth: true
       - name: Install dependencies
         run: npm ci
       - name: Build package
