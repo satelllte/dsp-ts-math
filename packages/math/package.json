@@ -39,6 +39,7 @@
   "devDependencies": {
     "vitest": "0.34.5"
   },
+  "homepage": "https://github.com/satelllte/dsp-ts-math#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/satelllte/dsp-ts-math.git"
