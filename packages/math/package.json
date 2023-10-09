@@ -1,6 +1,6 @@
 {
   "name": "@dsp-ts/math",
-  "version": "0.1.0-alpha.0",
+  "version": "0.1.0-alpha.1",
   "license": "MIT",
   "author": "@satelllte (https://github.com/satelllte)",
   "description": "A tiny set of TypeScript math helpers related to sound processing (DSP)",
@@ -39,9 +39,11 @@
   "devDependencies": {
     "vitest": "0.34.5"
   },
+  "homepage": "https://github.com/satelllte/dsp-ts-math#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/satelllte/dsp-ts-math.git"
+    "url": "git+https://github.com/satelllte/dsp-ts-math.git",
+    "directory": "packages/math"
   },
   "bugs": {
     "url": "https://github.com/satelllte/dsp-ts-math/issues"
