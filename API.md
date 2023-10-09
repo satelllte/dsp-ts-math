@@ -31,7 +31,7 @@ Clamps "x" value in [min..max] range
 
 #### Defined in
 
-[clamp.ts:8](https://github.com/satelllte/dsp-ts-math/blob/f22ff8f/packages/math/src/clamp.ts#L8)
+[clamp.ts:8](https://github.com/satelllte/dsp-ts-math/tree/main/packages/math/src/clamp.ts#L8)
 
 ___
 
@@ -53,4 +53,4 @@ Clamps "x" value in [0..1] range
 
 #### Defined in
 
-[clamp.ts:14](https://github.com/satelllte/dsp-ts-math/blob/f22ff8f/packages/math/src/clamp.ts#L14)
+[clamp.ts:14](https://github.com/satelllte/dsp-ts-math/tree/main/packages/math/src/clamp.ts#L14)

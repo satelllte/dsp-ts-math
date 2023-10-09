@@ -4,5 +4,7 @@
   "out": "docs",
   "plugin": ["typedoc-plugin-markdown"],
   "readme": "none",
-  "entryDocument": "API.md"
+  "entryDocument": "API.md",
+  "sourceLinkTemplate": "https://github.com/satelllte/dsp-ts-math/tree/main/packages/math/src/{path}#L{line}",
+  "disableGit": true
 }
