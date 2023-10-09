@@ -42,12 +42,10 @@
   "homepage": "https://github.com/satelllte/dsp-ts-math#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/satelllte/dsp-ts-math.git"
+    "url": "git+https://github.com/satelllte/dsp-ts-math.git",
+    "directory": "packages/math"
   },
   "bugs": {
     "url": "https://github.com/satelllte/dsp-ts-math/issues"
-  },
-  "publishConfig": {
-    "@dsp-ts:registry": "https://npm.pkg.github.com"
   }
 }
