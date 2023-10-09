@@ -2,9 +2,7 @@
   "name": "dsp-ts-math",
   "private": true,
   "scripts": {
-    "dev": "turbo run dev",
     "build": "turbo run build",
-    "build:package": "turbo run build --filter=@dsp-ts/math",
     "test": "turbo run test",
     "test:types": "turbo run test:types",
     "test:lint": "turbo run test:lint",

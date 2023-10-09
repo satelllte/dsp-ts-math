@@ -31,7 +31,6 @@
   ],
   "sideEffects": false,
   "scripts": {
-    "dev": "tsup --watch",
     "build": "tsup",
     "test": "vitest",
     "test:types": "tsc --noEmit",
