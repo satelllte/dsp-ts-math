@@ -46,5 +46,8 @@
   },
   "bugs": {
     "url": "https://github.com/satelllte/dsp-ts-math/issues"
+  },
+  "publishConfig": {
+    "@dsp-ts:registry": "https://npm.pkg.github.com"
   }
 }
