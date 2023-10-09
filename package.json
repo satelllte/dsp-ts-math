@@ -1,0 +1,27 @@
+{
+  "name": "dsp-ts-math",
+  "private": true,
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "build:package": "turbo run build --filter=@dsp-ts/math",
+    "test": "turbo run test",
+    "test:types": "turbo run test:types",
+    "test:lint": "turbo run test:lint",
+    "test:format": "prettier . --check",
+    "format": "prettier . --write"
+  },
+  "devDependencies": {
+    "@dsp-ts/eslint-config": "*",
+    "eslint": "8.49.0",
+    "eslint-plugin-turbo": "1.10.13",
+    "prettier": "3.0.3",
+    "tsup": "7.2.0",
+    "turbo": "1.10.13",
+    "typescript": "5.2.2"
+  },
+  "packageManager": "npm@9.5.1",
+  "workspaces": [
+    "packages/*"
+  ]
+}
