@@ -32,6 +32,7 @@
   "sideEffects": false,
   "scripts": {
     "build": "tsup",
+    "generate:docs": "typedoc",
     "test": "vitest",
     "test:types": "tsc --noEmit",
     "test:lint": "eslint ./src/**/* --max-warnings=0 --format=compact"

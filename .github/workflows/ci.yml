@@ -30,3 +30,28 @@ jobs:
         run: npm run test:format
       - name: Build
         run: npm run build
+      - name: Generate docs
+        run: npm run generate:docs
+      - name: Upload docs/README.md file artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: docs-artifact
+          path: ./packages/math/docs/README.md
+  update_docs:
+    needs: [ci]
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Download docs/README.md file artifact
+        uses: actions/download-artifact@v3
+        with:
+          name: docs-artifact
+          path: ./API.md
+      - name: Commit generated README.md file
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Update API.md
+          file_pattern: ./API.md
