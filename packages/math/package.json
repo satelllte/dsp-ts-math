@@ -42,7 +42,7 @@
   "homepage": "https://github.com/satelllte/dsp-ts-math#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/satelllte/dsp-ts-math.git"
+    "url": "https://github.com/satelllte/dsp-ts-math.git"
   },
   "bugs": {
     "url": "https://github.com/satelllte/dsp-ts-math/issues"
