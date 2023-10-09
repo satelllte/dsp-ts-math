@@ -21,13 +21,15 @@ Clamps "x" value in [min..max] range
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `x` | `number` | value to clamp |
-| `min` | `number` | min value |
-| `max` | `number` | max value |
+| `x` | `number` | Value to clamp |
+| `min` | `number` | Minimum value |
+| `max` | `number` | Maximum value |
 
 #### Returns
 
 `number`
+
+Clamped value
 
 #### Defined in
 
@@ -43,14 +45,16 @@ Clamps "x" value in [0..1] range
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `x` | `number` |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `x` | `number` | Value to clamp |
 
 #### Returns
 
 `number`
 
+Clamped value
+
 #### Defined in
 
-[clamp.ts:14](https://github.com/satelllte/dsp-ts-math/tree/main/packages/math/src/clamp.ts#L14)
+[clamp.ts:16](https://github.com/satelllte/dsp-ts-math/tree/main/packages/math/src/clamp.ts#L16)

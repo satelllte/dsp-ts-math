@@ -3,3 +3,7 @@ extends:
   - xo-typescript
   - prettier
   - turbo
+  - plugin:jsdoc/recommended-typescript
+
+plugins:
+  - jsdoc
