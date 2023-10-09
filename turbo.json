@@ -6,7 +6,9 @@
       "dependsOn": ["^build"],
       "outputs": ["dist/**"]
     },
-    "generate:docs": {},
+    "generate:docs": {
+      "outputs": ["docs/**"]
+    },
     "test": {
       "dependsOn": ["^build"]
     },
