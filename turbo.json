@@ -10,11 +10,13 @@
       "outputs": ["docs/**"]
     },
     "test": {
-      "dependsOn": ["^build"]
+      "dependsOn": ["build", "^build"]
     },
-    "test:types": {},
+    "test:types": {
+      "dependsOn": ["build", "^build"]
+    },
     "test:lint": {
-      "dependsOn": ["^build"]
+      "dependsOn": ["build", "^build"]
     }
   }
 }
