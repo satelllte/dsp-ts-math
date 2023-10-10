@@ -1,5 +1,5 @@
 import {describe, expect, it} from 'vitest';
-import {clamp, clamp01} from './clamp';
+import {clamp, clamp01} from '../dist';
 
 describe('clamp', () => {
   it('returns X when it is within the range [MIN..MAX]', () => {
