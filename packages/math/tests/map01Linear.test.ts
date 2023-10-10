@@ -1,5 +1,5 @@
 import {describe, expect, it} from 'vitest';
-import {mapFrom01Linear, mapTo01Linear} from '../dist';
+import {mapFrom01Linear, mapTo01Linear} from '.';
 
 describe('mapFrom01Linear', () => {
   it('should correctly map values within the [0..1] range to [MIN..MAX] linearly', () => {
